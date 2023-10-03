@@ -59,8 +59,8 @@ public class Deck { // represents full deck of cards with suit and rank
         if (cards.length == 52) {
             String result = "";
             for (int i = 0; i < 13; i++) {
-                result += cards[i] + "\t" + cards[i + 13] + "\t" + // used \t to create tabs for columns
-                          cards[i + 26] + "\t" + cards[i + 39] + "\n";
+                result += cards[i] + "\t\t" + cards[i + 13] + "\t\t" + // used \t to create tabs for columns
+                          cards[i + 26] + "\t\t" + cards[i + 39] + "\n";
             }
             return result;
         } else {
