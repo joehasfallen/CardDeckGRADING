@@ -1,3 +1,6 @@
+// Author: Joe Lentini
+// Card Sorting
+// -With bonus sorting methods in Deck class
 
 public class Card implements Comparable<Card> {
 	
